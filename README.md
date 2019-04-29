@@ -11,9 +11,9 @@ To launch the application, follow below steps:
 
 ## **Ghost-app Functioning:**
 Application involves 3 services:
-- **Backend : MySQL**
-- **Application : Ghost-app**
-- **Webserver : NGINX**
+1.  **Backend : MySQL**
+2.  **Application : Ghost-app**
+3.  **Webserver : NGINX**
 
 - Firstly, MySQL container starts. Make sure to use the username and password to login to mysql DB as mentioned in compose file.
 To make the data persistent we will use a named Docker volume called "mysql-volume". The data from /var/lib/mysql (path inside our MySQL container) will be mounted in the volume.
