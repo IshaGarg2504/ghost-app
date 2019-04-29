@@ -3,7 +3,7 @@ Ghost-application
 
 ### Prerequisites :
 1. Latest version of docker-compose installed
-2. openssl installed
+
 
 To launch the application, follow below steps:
 1. Clone/Download the code in your local
