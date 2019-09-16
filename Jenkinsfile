@@ -10,7 +10,7 @@ pipeline {
             steps {
                 echo "Run docker compose"
                 script {
-                    docker-compose up
+                    sh 'docker-compose up'
                 }                
 
             }
